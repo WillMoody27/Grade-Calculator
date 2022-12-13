@@ -71,4 +71,17 @@ input:focus {
   justify-content: center;
   border: 1px solid #000;
   padding: 0 10px;
+  border-radius: 5px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+footer p {
+  text-align: center;
+}
+footer p span {
+  color: #fff;
 }
