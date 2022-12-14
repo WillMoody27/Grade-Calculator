@@ -86,7 +86,7 @@ nav .main-logo a {
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 1.5rem;
   margin: 15px auto;
   justify-content: center;
   align-items: center;
@@ -134,6 +134,7 @@ nav .main-logo a {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
+  outline: 5px solid rgba(0, 0, 0, 0.114);
 }
 footer {
   /* position: absolute; */
