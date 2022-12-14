@@ -75,6 +75,9 @@ nav .main-logo a {
   font-weight: 400;
   outline: 1px solid var(--primary-color);
 }
+.recent-tools-title {
+  margin-top: 30px;
+}
 .project-content {
   margin: 10px;
 }
