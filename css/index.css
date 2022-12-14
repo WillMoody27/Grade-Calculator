@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,300&display=swap");
+
+:root {
+  --primary-color: #1f2833;
+  --bg-primary-color: #0b0c10;
+  --retro-text-color: #66fcf1;
+  --retro-text-color-2: #3d9b95;
+  --box-shadow-color: #0000005e;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+/* Navbar */
+.nav-container {
+  font-family: "Montserrat Alternates", Arial, Helvetica, sans-serif;
+  height: 10vh;
+}
+.navbar {
+  background: var(--primary-color);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  height: 10vh;
+}
+.navbar .container {
+  padding: 0 10px;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+}
+nav .main-logo a {
+  text-decoration: none;
+  color: var(--retro-text-color);
+  font-size: 1.8rem;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+}
+.navbar ul li {
+  padding: 10px;
+}
+.navbar ul a {
+  text-decoration: none;
+  color: var(--retro-text-color);
+}
+/* Navbar */
+/* Project Section */
+.project-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+.greet-container {
+  max-width: 900px;
+  margin: auto;
+}
+.cs-home-greet {
+  box-shadow: 5px 5px var(--box-shadow-color);
+  border-radius: 5px;
+  background: #eaeaea;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  outline: 1px solid var(--primary-color);
+}
+.project-content {
+  margin: 10px;
+}
+/* Projects */
+.project {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 15px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-details .project-tool-title {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+.project-details p {
+  font-weight: 400;
+}
+.project-details .link-btn {
+  outline: 1px solid #000;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000;
+}
+.project-details .link-btn:hover {
+  background: rgb(130, 217, 0);
+  box-shadow: 5px 5px 0px #005a06;
+}
+.project-tool-title:hover {
+  color: rgb(87, 87, 87);
+}
+/* project images */
+.project img {
+  background-color: #eff0c6;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+footer {
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+footer p {
+  text-align: center;
+}
+footer p span {
+  color: rgb(98, 98, 98);
+}

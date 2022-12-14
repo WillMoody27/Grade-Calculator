@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/calculator.css" />
+    <title>Will's CS-Hub | Final Grade Calculator</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav class="navbar">
+        <div class="container">
+          <h1 class="main-logo"><a href="./about.html">Will's CS-Hub</a></h1>
+          <ul>
+            <li><a class="nav-link" href="./tools.html">Tools</a></li>
+            <li><a class="nav-link" href="./about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section class="tool-box-1">
+      <div class="container-tool-box">
+        <h1><a class="home-link" href="./tools.html">Will's CS-Hub</a></h1>
+        <div class="tool-box-details">
+          <h2>What's this? 🤔</h2>
+          <p class="details-text">
+            This is a
+            <span class="key-word">useful final grade calculator</span>, that
+            tells you the final grade needed to reach your
+            <span class="key-word">target</span> class grade, or the grade
+            needed on your final to pass your class... hope you enjoy using it
+            just as much as I enjoyed building it!
+          </p>
+        </div>
+        <!--  -->
+        <form>
+          <p class="tool-title">Final Grade Calculator</p>
+          <div class="grade-tool-box">
+            <p>
+              <span>Current Grade in Class:</span>
+              <input
+                type="text"
+                id="calc-grade-current"
+                value=""
+                class="calc-tool"
+                placeholder="(i.e. 90.1)"
+                required
+              />
+              %
+            </p>
+            <p>
+              <span>Grade Desired:</span>
+              <input
+                id="calc-grade-desired"
+                class="calc-tool"
+                type="text"
+                placeholder="(i.e. 80)"
+                value=""
+                required
+              />
+              %
+            </p>
+            <p>
+              <span>Weight of Final:</span>
+              <input
+                id="calc-grade-weight"
+                class="calc-tool"
+                type="text"
+                placeholder="(i.e. 20)"
+                value=""
+                required
+              />
+              %
+            </p>
+            <button id="result-btn" type="button">
+              Calculate Result Needed on Final
+            </button>
+            <div id="display-results">
+              <p>You need a score of: <span class="text-result"></span>%</p>
+              <!-- Append Element Displaying Result JS -->
+            </div>
+          </div>
+        </form>
+        <!--  -->
+      </div>
+    </section>
+    <section class="resources">
+      <div class="resources-container">
+        <p>
+          My Top Programming CS Resources A+ (From Past and Present Classes)
+        </p>
+        <ul class="resource-links">
+          <li>
+            <a href="https://www.freecodecamp.org/">Free Code Camp</a>
+          </li>
+          <li>
+            <a href="https://open.umn.edu/opentextbooks/textbooks/419"
+              >Introduction to Programming Using Java - Eighth Edition</a
+            >
+          </li>
+          <li>
+            <a href="http://opendatastructures.org/ods-java.pdf"
+              >Open Data Structures (In Java)</a
+            >
+          </li>
+          <li>
+            <a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/">w3schools</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © <span>William Hellems-Moody</span> All rights reserved</p>
+    </footer>
+    <script src="./js/calculator.js"></script>
+  </body>
+</html>

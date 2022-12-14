@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,300&display=swap");
+
+:root {
+  --primary-color: #1f2833;
+  --bg-primary-color: #0b0c10;
+  --retro-text-color: #66fcf1;
+  --retro-text-color-2: #3d9b95;
+  --box-shadow-color: #0000005e;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #e0e0e0; */
+  margin: 0;
+}
+/* Navbar */
+.nav-container {
+  font-family: "Montserrat Alternates", Arial, Helvetica, sans-serif;
+  height: 10vh;
+}
+.navbar {
+  background: var(--primary-color);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  height: 10vh;
+}
+.navbar .container {
+  padding: 0 10px;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+}
+nav .main-logo a {
+  text-decoration: none;
+  color: var(--retro-text-color);
+  font-size: 1.8rem;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+}
+.navbar ul li {
+  padding: 10px;
+}
+.navbar ul a {
+  text-decoration: none;
+  color: var(--retro-text-color);
+}
+/* Navbar */
+
+/* About Section */
+.about-section {
+  padding: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+.tech-stack-title {
+  border-bottom: 1px solid #000;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+footer p {
+  text-align: center;
+}
+footer p span {
+  color: rgb(98, 98, 98);
+}
+
+/* Footer */
